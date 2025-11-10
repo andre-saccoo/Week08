@@ -1,0 +1,24 @@
+partiamo defininendo una funziona base per calcolare tutti gli anagrammi nel model
+
+serve passare la parola e lei da tutte le combinazione
+
+esempio:
+APE AEP EAP EPA PAE PEA
+['ape', 'aep', 'pae', 'pea', 'eap', 'epa']
+
+
+creo una ricorsione dobe parto con una lista di lettere rimanenti e creo una lista che via via si ingrandisce e crea l'anagramma
+servono due argomenti della funzione
+[][DOG]
+[D][OG]
+[DO][G]
+[DOG][]
+finisco quando la lista delle lettere rimanenti è vuota, dopo aver salvato nell'insieme degli anagrammi quello prodotto
+anagrammi=['DOG', 'DGO', 'ODG', 'OGD', 'GDO', 'GOD']
+
+
+PROGRAMMA ESAME
+prog ogg
+database
+interfaccia utente
+algoritmi
